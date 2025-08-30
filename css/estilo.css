@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Menu */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+    color:hsl(197, 96%, 79%);
+}
+
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #f2f2f2;
+}
+
+.img-centralizada{
+    display: block;
+    margin: auto;
+}   
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+#contatos{
+    text-align: center;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+}
